@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #e6f0ff, #ffffff);
+    color: #001f3f;
+    margin: 0;
+    text-align: center;
+    /* padding: 20px; */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #007BFF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+}
+
+header h1 {
+    font-size: 2.8rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-top: 0;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-top: 5px;
+}
+
+.form-section, .testimonies-section {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.testimonies-section:hover {
+    transform: translateY(-5px);
+}
+
+input, textarea {
+    width: 95%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+
+input:focus, textarea:focus {
+    border-color: #003366;
+    box-shadow: 0 0 5px rgba(0, 51, 102, 0.5);
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.testimony {
+    background: #e6f0ff;
+    padding: 15px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border-left: 4px solid #007BFF;
+    text-align: left;
+}
+
+.testimony h3 {
+    margin: 0;
+    color: #003366;
+}
+
+.testimony p {
+    margin-top: 5px;
+    color: #001f3f;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px 0;
+}
+
+footer .link {
+    display: inline-block;
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+footer .link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    img{
+        width: 60px;
+        height: 60px;
+    }
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .form-section, .testimonies-section {
+        width: 95%;
+        padding: 20px;
+        margin: 15px 0;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    input, textarea, button {
+        font-size: 1rem;
+    }
+
+    textarea{
+        width: 336px;
+        height: 52px;
+    }
+
+    footer .link {
+        font-size: 1rem;
+    }
+    input, textarea {
+        position: center;
+    }
+}
