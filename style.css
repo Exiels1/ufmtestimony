@@ -5,7 +5,6 @@ body {
     color: #001f3f;
     margin: 0;
     text-align: center;
-    /* padding: 20px; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -151,7 +150,7 @@ footer .link:hover {
     }
 
     textarea{
-        width: 336px;
+        width: 297px;
         height: 52px;
     }
 
@@ -169,7 +168,7 @@ footer .link:hover {
     width: 200px;
     height: 625px;
     overflow: hidden;
-    background: #007BFF;
+    /*background: #007BFF;*/
     color: white;
     padding: 15px;
     border-radius: 10px 0 0 10px;
@@ -177,8 +176,9 @@ footer .link:hover {
 }
 
 .side-scroll p {
-    animation: scroll-up 10s linear infinite;
+    animation: scroll-up 20s linear infinite;
     margin: 0;
+    font-size: 40px;
     line-height: 1.5;
 }
 
@@ -208,14 +208,13 @@ footer .link:hover {
         top: revert-layer;
         align-items: center;
         justify-content: center;
-        background: #007BFF;
         color: white;
         box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
         overflow: hidden;
     }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 20s linear infinite;
         white-space: nowrap;
     }
 
@@ -249,9 +248,16 @@ footer .link:hover {
         box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
         overflow: hidden;
     }
+    textarea{
+        width: 275px;
+        height: 52px;
+    }
+    input{
+        width: 270px;
+    }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 0.5s linear infinite;
         white-space: nowrap;
     }
 
@@ -287,7 +293,7 @@ footer .link:hover {
     }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 20s linear infinite;
         white-space: nowrap;
     }
 
@@ -323,7 +329,7 @@ footer .link:hover {
     }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 20s linear infinite;
         white-space: nowrap;
     }
 
@@ -359,7 +365,7 @@ footer .link:hover {
     }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 20s linear infinite;
         white-space: nowrap;
     }
 
@@ -388,14 +394,15 @@ footer .link:hover {
         top: revert-layer;
         align-items: center;
         justify-content: center;
-        background: #007BFF;
+        /*background: #007BFF;*/
         color: white;
         box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
         overflow: hidden;
+        background: linear-gradient(135deg, #045de2, #2c0cbb);
     }
 
     .side-scroll p {
-        animation: scroll-left 10s linear infinite;
+        animation: scroll-left 20s linear infinite;
         white-space: nowrap;
     }
 
@@ -407,4 +414,11 @@ footer .link:hover {
             transform: translateX(-100%);
         }
     } 
+}
+b{
+    color: rgb(251, 255, 0);
+    font-size: 40px;
+}
+span{
+    font-size: 40px;
 }
