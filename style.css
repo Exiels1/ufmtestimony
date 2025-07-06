@@ -365,7 +365,7 @@ footer .link:hover {
     }
 
     .side-scroll p {
-        animation: scroll-left 20s linear infinite;
+        animation: scroll-left 25s linear infinite;
         white-space: nowrap;
     }
 
@@ -402,7 +402,7 @@ footer .link:hover {
     }
 
     .side-scroll p {
-        animation: scroll-left 20s linear infinite;
+        animation: scroll-left 45s linear infinite;
         white-space: nowrap;
     }
 
