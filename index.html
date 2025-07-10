@@ -22,14 +22,17 @@
         <h2>Share Your Testimony</h2>
         <p class="description">Your testimony encourages others and glorifies God.</p>
 
-        <!-- Netlify Form Starts Here -->
-        <form name="testimony" method="POST" netlify netlify-honeypot="bot-field">
-            <input type="hidden" name="form-name" value="testimony">
+        <form action="https://formspree.io/f/xqabrejb" method="POST">
             <input type="text" name="name" placeholder="Your Name" required><br>
-            <textarea name="message" placeholder="Your Testimony" required spellcheck="True"></textarea><br>
+            
+            <textarea name="message" placeholder="Your Testimony" required spellcheck="true"></textarea><br>
+          
+            <!-- Optional: redirect after submit -->
+            <input type="hidden" name="_redirect" value="https://ufmtestimony.netlify.app/thankyou.html">
+          
             <button type="submit">Submit Testimony</button>
-        </form>        
-        <!-- Netlify Form Ends Here -->
+          </form>
+          
 
     </section>
 
