@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Unquenchable Fire Ministry | Share Your Testimony</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./logo (1).ico" type="image/png">
-        <link rel="stylesheet" href="./style.css">
-    </head>    
+<head>
+    <meta charset="UTF-8">
+    <title>Unquenchable Fire Ministry | Share Your Testimony</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./logo (1).ico" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+</head>    
 <body>
     <header>
         <img src="./logo.png" alt="Church Logo">
         <h1>🔥 Unquenchable Fire Ministry 🔥</h1>
         <p class="subtitle">Declare the Goodness of God</p>
     </header>
+
     <div class="side-scroll">
         <p><span>Our Mandate:</span> <b>Cure</b> mankind from the captivity of ignorance to discover <b>Purpose</b>, become <b>Rich </b> and fulfill <b>Destiny</b>... And you will also <b>Heal</b> them; Ask if they believe, and speak the <b>Word</b>; for they shall know the <b>Truth</b> and the <b>Truth</b> will make them free.</p>
     </div>
+
     <section class="form-section">
         <h2>Share Your Testimony</h2>
         <p class="description">Your testimony encourages others and glorifies God.</p>
 
-        <form action="https://formsubmit.co/Ufmonlinetestimonies@gmail.com"  method="POST">
+        <!-- Netlify Form Starts Here -->
+        <form name="testimony" method="POST" netlify netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="testimony">
             <input type="text" name="name" placeholder="Your Name" required><br>
             <textarea name="message" placeholder="Your Testimony" required spellcheck="True"></textarea><br>
             <button type="submit">Submit Testimony</button>
-        </form>
+        </form>        
+        <!-- Netlify Form Ends Here -->
+
     </section>
 
     <footer>
