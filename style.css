@@ -470,4 +470,11 @@ span{
   .socials a:hover {
     color: #00bfff;
   }
-  
+  @media (max-width: 600px) {
+    img.church-logo {
+            margin-left: 180px;
+    }
+    .center h1{
+        font-size: 26px;
+    }
+}
